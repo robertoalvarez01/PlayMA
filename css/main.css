@@ -1,0 +1,79 @@
+
+
+*,*:after, *:before{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.body-carga{
+  background: rgb(42, 152, 203);
+}
+
+#contenedor_carga{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 10000;
+  background-color: rgb(42, 152, 203);
+}
+
+#carga{
+  border: 15px solid rgb(215, 154, 215);
+  border-top-color: #bd5fb9;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: rotar 1.5s linear infinite;
+    -o-animation: rotar 1.5s linear infinite;
+    animation: rotar 1.5s linear infinite;
+}
+
+@keyframes rotar {
+  from{ transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
+.info{
+  text-align: center;
+}
+
+
+#categoria{
+  background-color:rgb(42, 152, 203);
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.cat{
+  font-weight: bold;
+  color: #000;
+  font-style: oblique;
+  color: #fff;
+}
+
+.inicio{
+  color: #fff;
+}
+
+.comenzar{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.btn-comenzar{
+  background-color: #7ac35b;
+  font-weight: bold;
+}

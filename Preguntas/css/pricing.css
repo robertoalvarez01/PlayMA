@@ -1,0 +1,132 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  overflow-x: hidden;s
+  padding-top: 56px;
+}
+@media (min-width: 500px) {
+  .title-primary{
+    margin-right: 900px;
+  }
+}
+
+@media (max-width: 991.98px) {
+    .name-item{
+  font-size: 20px;
+  position: absolute;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 16px;
+}
+.media-body{
+  font-size: 20px;
+  margin-left: 900px;
+  position: relative;
+  width: 200px;
+}
+  .offcanvas-collapse {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding: 30px;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+  }
+  .offcanvas-collapse.open {
+    left:0;
+    visibility: visible;
+  }
+}
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+.title-primary{
+  color: #fff;
+  font-weight: 300;
+}
+.name-item{
+  font-size: 20px;
+  position: absolute;
+  margin-left: -200px;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 16px;
+  width: 200px;
+}
+.media-body{
+  font-size: 20px;
+  margin-left: 200px;
+  position: relative;
+  width: 200px;
+}
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.container {
+  max-width: 960px;
+  margin-top: 150px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+.card-header{
+	padding: 30px;
+}
+
+.btn{
+	margin-bottom: 20px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
